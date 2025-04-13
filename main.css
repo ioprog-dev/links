@@ -1,2 +1,5 @@
-body {text-align: center;}
-.master {text-align: center;}
+@media (max-width: 600px) {
+    body, .master {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
